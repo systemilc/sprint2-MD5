@@ -1,5 +1,14 @@
-export const Cadastrar = ()=>{
-    return (
-    <h1>Cadastrar</h1>
-    )
-}
+import { useState } from "react";
+import { FormStep1} from "../Cadastro/FormStep1";
+
+
+export const Cadastrar = () => {
+
+  return (
+        <div>
+          <FormStep1 />
+     
+           </div>
+
+  );
+};
